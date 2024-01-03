@@ -1,0 +1,72 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Eclipse project files
+.settings/
+.classpath
+.project
+
+# IntelliJ IDEA project files
+.idea/
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+build/
+.gradle/
+
+# BlueJ project files
+.bluej/
+
+# NetBeans project files
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# IntelliJ IDEA
+out/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+.idea/misc.xml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/usage.statistics.xml
+.idea/copyright
+
+# Eclipse
+bin/
+.target/
+
+# NetBeans
+nbproject/build.xml
+nbproject/genfiles.properties
+nbproject/build-impl.xml
+nbproject/configs/
