@@ -1,4 +1,4 @@
-package src.test; // Correct package declaration for your test class
+package ; // Correct package declaration for your test class
 
 import org.junit.*;
 import static org.junit.Assert.*;
