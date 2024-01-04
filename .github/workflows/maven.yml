@@ -16,15 +16,11 @@ jobs:
         distribution: 'temurin'
         cache: maven
 
-    - name: Change working directory
-      run: cd junit  # Change this to match your project structure
-      working-directory: ./junit  # Change this to match your project structure
-
     - name: Clear Maven Cache
-      run: mvn dependency:purge-local-repository
+      run: mvn -f junit/pom.xml dependency:purge-local-repository
 
     - name: Build with Maven
-      run: mvn -B package --file pom.xml
+      run: mvn -f junit/pom.xml -B package
 
     - name: Run JUnit Tests
-      run: mvn test
+      run: mvn -f junit/pom.xml test
