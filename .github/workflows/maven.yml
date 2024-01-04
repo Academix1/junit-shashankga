@@ -20,7 +20,7 @@ jobs:
         cache: 'maven'
 
     - name: List contents of src/test/java
-      run: ls -la src/test/java
+      run: ls -la src/test
 
     - name: Build with Maven
       run: mvn -B clean install
