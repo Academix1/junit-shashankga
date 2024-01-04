@@ -1,8 +1,6 @@
-package src.test;
+package com.example.app; // Correct package declaration
+
 import org.junit.*;
-
-import src.main.Greet;
-
 import static org.junit.Assert.*;
 
 public class GreetTest {
