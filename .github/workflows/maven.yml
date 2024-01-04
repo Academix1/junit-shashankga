@@ -18,9 +18,12 @@ jobs:
 
     - name: Clear Maven Cache
       run: mvn dependency:purge-local-repository
+      working-directory: ./junit  # Adjust this path to match your project structure
 
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+      working-directory: ./junit  # Adjust this path to match your project structure
 
     - name: Run JUnit Tests
       run: mvn test
+      working-directory: ./junit  # Adjust this path to match your project structure
