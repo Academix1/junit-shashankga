@@ -19,8 +19,8 @@ jobs:
         distribution: 'temurin'
         cache: 'maven'
 
-    - name: List contents of src/test/java
-      run: ls -la
+    - name: List contents of current directory
+      run: pwd
     - name: List contents of src/main
       run: ls -la src/main
 
