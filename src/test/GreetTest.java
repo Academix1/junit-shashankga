@@ -1,7 +1,8 @@
-package com.example.app; // Correct package declaration
+package src.test; // Correct package declaration for your test class
 
 import org.junit.*;
 import static org.junit.Assert.*;
+import src.main.Greet; // Importing the main code
 
 public class GreetTest {
     
