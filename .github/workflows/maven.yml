@@ -16,11 +16,14 @@ jobs:
         distribution: 'temurin'
         cache: maven
 
+    - name: Navigate to project directory
+      run: cd junit
+
     - name: Clear Maven Cache
-      run: mvn -f junit/pom.xml dependency:purge-local-repository
+      run: mvn dependency:purge-local-repository
 
     - name: Build with Maven
-      run: mvn -f junit/pom.xml -B package
+      run: mvn -B package
 
     - name: Run JUnit Tests
-      run: mvn -f junit/pom.xml test
+      run: mvn test
