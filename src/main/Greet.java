@@ -2,7 +2,7 @@ package src.main;
 public class Greet {
 
     public String says() {
-        return "Hello";
+        return "Helloo";
     }
 
     public int add (int numberA, int numberB) {
